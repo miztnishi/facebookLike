@@ -11,6 +11,9 @@
 		516AFEA225A34FBF008E5B5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AFEA125A34FBF008E5B5E /* ContentView.swift */; };
 		516AFEA425A34FC3008E5B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516AFEA325A34FC3008E5B5E /* Assets.xcassets */; };
 		516AFEA725A34FC3008E5B5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516AFEA625A34FC3008E5B5E /* Preview Assets.xcassets */; };
+		516AFEB025A35BFE008E5B5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516AFEAF25A35BFE008E5B5E /* Images.xcassets */; };
+		516AFEB325A4AFE5008E5B5E /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AFEB225A4AFE5008E5B5E /* StoriesView.swift */; };
+		516AFEB625A4B04F008E5B5E /* FBpostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AFEB525A4B04F008E5B5E /* FBpostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		516AFEA325A34FC3008E5B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516AFEA625A34FC3008E5B5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		516AFEA825A34FC3008E5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516AFEAF25A35BFE008E5B5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		516AFEB225A4AFE5008E5B5E /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		516AFEB525A4B04F008E5B5E /* FBpostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBpostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 				516AFE9F25A34FBF008E5B5E /* facebookApp.swift */,
 				516AFEA125A34FBF008E5B5E /* ContentView.swift */,
 				516AFEA325A34FC3008E5B5E /* Assets.xcassets */,
+				516AFEAF25A35BFE008E5B5E /* Images.xcassets */,
 				516AFEA825A34FC3008E5B5E /* Info.plist */,
+				516AFEB525A4B04F008E5B5E /* FBpostView.swift */,
+				516AFEB225A4AFE5008E5B5E /* StoriesView.swift */,
 				516AFEA525A34FC3008E5B5E /* Preview Content */,
 			);
 			path = facebook;
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516AFEB025A35BFE008E5B5E /* Images.xcassets in Resources */,
 				516AFEA725A34FC3008E5B5E /* Preview Assets.xcassets in Resources */,
 				516AFEA425A34FC3008E5B5E /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516AFEB625A4B04F008E5B5E /* FBpostView.swift in Sources */,
 				516AFEA225A34FBF008E5B5E /* ContentView.swift in Sources */,
 				516AFEA025A34FBF008E5B5E /* facebookApp.swift in Sources */,
+				516AFEB325A4AFE5008E5B5E /* StoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
